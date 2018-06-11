@@ -28,8 +28,8 @@ RUN chmod +x /home/dockerx/JD2Setup_x64.sh
 #RUN /home/dockerx/JD2Setup_x64.sh
 
 #Add password script
-ADD https://raw.githubusercontent.com/Tikia/docker/master/xubuntu-x2go-Vuze/root_pw_set.sh /
-ADD https://raw.githubusercontent.com/Tikia/docker/master/xubuntu-x2go-Vuze/run.sh /
+ADD https://raw.githubusercontent.com/Tikia/docker-xubuntu-x2go-jdownloader/master/root_pw_set.sh /
+ADD https://raw.githubusercontent.com/Tikia/docker-xubuntu-x2go-jdownloader/master/run.sh /
 RUN chmod +x /*.sh
 
 #Define port
